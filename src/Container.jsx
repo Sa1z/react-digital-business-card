@@ -4,7 +4,27 @@ export default function Container() {
     return (
       <div className="Container">
         <img className="headshot" src="https://c.pxhere.com/photos/31/11/dog_nose_snout_animal_head_eyes_pet_close-1391282.jpg!d" alt="dog" />
-        <h1 className="title-name">test</h1>
+        <h1 className="title-name">Dennis Diaz</h1>
+        <h2 className="title-Desc">Web Developer</h2>
+        <a href="https://sa1z.github.io/personal-site/">Dennis's Site</a>
+        <div className="btn">
+          <button className="email">Email</button>
+          <button className="linkedin">LinkedIn</button>
+        </div>
+        <div className="about">
+          <h2>About</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis reprehenderit natus quas harum cumque, facere, consequatur reiciendis nobis, voluptates corrupti distinctio iure perspiciatis! Corporis consequatur totam fugiat, dolores autem dolore.</p>
+        </div>
+        <div className="interests">
+          <h2>Interests</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam mollitia dolorem reiciendis laudantium tempore atque earum nulla nostrum quae fugit? Similique dolorum fuga exercitationem perferendis expedita, omnis labore quis facere?</p>
+        </div>
+        <div className="social-links">
+          <button><img src="" alt="" /></button>
+          <button><img src="" alt="" /></button>
+          <button><img src="" alt="" /></button>
+          <button><img src="" alt="" /></button>
+        </div>
       </div>
     )
   }
