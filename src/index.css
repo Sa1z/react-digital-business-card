@@ -53,6 +53,34 @@ body {
   padding-top: 15px;
 }
 
+.email {
+  background-color: white;
+  border: none;
+  border-radius: 6px;
+  margin-right: 8px;
+  height: 34px;
+  width: 115px;
+  left: 151px;
+  top: 468px;;
+}
+
+.linkedin {
+  background-color: #5093E2;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  margin-left: 8px;
+  height: 34px;
+  width: 115px;
+  left: 283px;
+  top: 468px;
+}
+
+.email > img, .linkedin > img {
+  padding: 10.33px 0 10.33px 0;
+  vertical-align: middle;
+}
+
 .about > h2, .interests > h2 {
   color: #F5F5F5;
   font-size: 16px;
@@ -75,4 +103,8 @@ body {
   border-bottom-left-radius: 15px;
   margin-top: 24px;
   padding: 20px 0 20px 0;
+}
+
+.social-links > a {
+  padding: 0 15px 0 15px;
 }
