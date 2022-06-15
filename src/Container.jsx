@@ -5,8 +5,8 @@ export default function Container() {
       <div className="Container">
         <img className="headshot" src="https://c.pxhere.com/photos/31/11/dog_nose_snout_animal_head_eyes_pet_close-1391282.jpg!d" alt="dog" />
         <h1 className="title-name">Dennis Diaz</h1>
-        <h2 className="title-Desc">Web Developer</h2>
-        <a href="https://sa1z.github.io/personal-site/">Dennis's Site</a>
+        <h2 className="title-desc">Web Developer</h2>
+        <a href="https://sa1z.github.io/personal-site/" className="site-link">Dennis's Site</a>
         <div className="btn">
           <button className="email">Email</button>
           <button className="linkedin">LinkedIn</button>
@@ -20,10 +20,10 @@ export default function Container() {
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam mollitia dolorem reiciendis laudantium tempore atque earum nulla nostrum quae fugit? Similique dolorum fuga exercitationem perferendis expedita, omnis labore quis facere?</p>
         </div>
         <div className="social-links">
-          <button><img src="" alt="" /></button>
-          <button><img src="" alt="" /></button>
-          <button><img src="" alt="" /></button>
-          <button><img src="" alt="" /></button>
+          <a href="https://twitter.com/"><img src="../images/Twitter-Icon.png" alt="Twitter" /></a>
+          <a href="#"><img src="../images/Facebook-Icon.png" alt="Facebook" /></a>
+          <a href="#"><img src="../images/Instagram-Icon.png" alt="Instagram" /></a>
+          <a href="#"><img src="../images/GitHub-Icon.png" alt="Github" /></a>
         </div>
       </div>
     )
