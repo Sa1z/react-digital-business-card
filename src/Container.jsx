@@ -8,8 +8,8 @@ export default function Container() {
         <h2 className="title-desc">Web Developer</h2>
         <a href="https://sa1z.github.io/personal-site/" className="site-link">Dennis's Site</a>
         <div className="btn">
-          <button className="email">Email</button>
-          <button className="linkedin">LinkedIn</button>
+          <button className="email"><img src="../images/Mail.png" alt="" /> Email</button>
+          <button className="linkedin"><img src="../images/Vector.png" alt="" /> LinkedIn</button>
         </div>
         <div className="about">
           <h2>About</h2>
